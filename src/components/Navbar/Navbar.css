@@ -1,0 +1,14 @@
+.navbar{
+    background-color:rgb(184, 219, 231);
+    height: 70px;
+}
+nav .left-side{
+   display: flex;
+   margin-left: 30px;
+}
+nav .left-side .logo-name{
+    margin-top: 28px;
+    font-size: 22px;
+    font-weight: bolder;
+    color: rgb(15, 163, 163);
+}
