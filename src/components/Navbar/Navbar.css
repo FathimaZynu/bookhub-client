@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color:rgb(184, 219, 231);
+    background-color:rgb(99, 143, 158);
     height: 70px;
     padding: 8px;
 }
@@ -14,7 +14,7 @@ nav .left-nav .logo-name{
     line-height: 88px;
     font-size: 22px;
     font-weight: bolder;
-    color: rgb(15, 163, 163);
+    color: rgb(37, 100, 100);
 }
 .navbar-links{
     list-style: none;
@@ -28,11 +28,11 @@ nav .left-nav .logo-name{
 }
 .navbar-links a{
     text-decoration: none;
-    color: rgb(17, 153, 153);
+    color: rgb(31, 77, 77);
     transition: color 0.3sec;
 }
 .navbar-links a:hover{
-    color: rgb(26, 100, 100);
+    color: rgb(22, 41, 41);
 }
 .toggle-button{
     display: none;
@@ -70,7 +70,7 @@ nav .left-nav .logo-name{
     }
     .navbar .toggle-button {
         display: block;
-        background-color: rgb(15, 163, 163);
+        background-color: rgb(31, 77, 77);
         color: white;
         font-size: 18px;
         padding: 10px;

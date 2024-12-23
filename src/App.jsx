@@ -8,6 +8,7 @@ import View from './components/View/View'
 import Navbar from './components/Navbar/Navbar'
 import Signup from './components/Signup/Signup'
 import Login from './components/Login/Login'
+import Header from './components/Header/Header'
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       <BrowserRouter>
       <Navbar/>
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/' element={<Header/>}/>
+        <Route path='/home' element={<Home/>}/>
         <Route path='/signup' element={<Signup/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/addbook' element={<AddBook/>}/>

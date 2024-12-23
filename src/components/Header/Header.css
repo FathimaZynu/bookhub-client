@@ -1,0 +1,61 @@
+.hero-container {
+    position: relative;
+    background-color: #1e6475; 
+    background-image: url('https://media.istockphoto.com/id/1465650572/photo/vintage-old-hardback-books-education-background-back-to-school-copy-space.jpg?s=612x612&w=0&k=20&c=o-pJL9vedhjdWsTbmM3rXeAtOdmWxzsfHbR33kyt9YM='); 
+    background-size: cover;
+    background-position: center;
+    height:90vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    color:white ;
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    color: rgba(255, 255, 255, 0.712);
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    background-color: rgb(29, 48, 48);
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: rgb(28, 70, 70);
+  }
+  
+  .btn-secondary {
+    background-color: #5f6569;
+    color: white;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #6a7781;
+  }
+  

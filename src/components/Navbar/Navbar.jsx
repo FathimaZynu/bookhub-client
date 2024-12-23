@@ -32,7 +32,7 @@ function Navbar() {
                 <div>
                     <ul className={`navbar-links ${toggle ? 'show' : ''}`}>
                         <li>
-                            <Link to='/'>Home</Link>
+                            <Link to='/home'>Home</Link>
                         </li>
                         <li>
                             <Link to='/addbook'>Add Book</Link>

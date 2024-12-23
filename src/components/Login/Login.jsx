@@ -24,7 +24,7 @@ function Login() {
     Fetchdata.post('/login',user).then((res)=>{
           console.log(res);
           localStorage.setItem('token',res.data.token)
-          navigate('/')
+          navigate('/home')
     }).catch((err)=>{
         console.log(err);
         
