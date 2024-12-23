@@ -15,9 +15,9 @@ function Update() {
     })
 
     useEffect(()=>{
-        Fetchdata.get(`/book?id=${id}`).then((res)=>{
+        Fetchdata.get(`/books?id=${id}`).then((res)=>{
                console.log(res.data);
-               setForm({...res.data})
+               setForm({...res.data.data})
         }).catch((err)=>{
                console.log(err);
                

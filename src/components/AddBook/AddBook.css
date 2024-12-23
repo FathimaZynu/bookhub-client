@@ -11,7 +11,7 @@
     border-radius: 8px;
     box-shadow: 0 2px 4px black;
     text-align: center;
-    background-color: rgba(128, 61, 190, 0.801);
+    background-color: rgb(241, 231, 231);
 }
 .add-book h2 {
     color:  #462758;

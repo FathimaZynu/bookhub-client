@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import axios from 'axios'
 import './Signup.css'
 import { Fetchdata } from '../../axios/Fetchdata'
+import { useNavigate } from 'react-router-dom'
 
 function Form() {
 
@@ -18,6 +19,8 @@ function Form() {
             [event.target.name] : event.target.value
         })
     }
+    
+    const navigate = useNavigate()
 
     function addUser(event){
         if(!form.username || !form.email || !form.password || !form.mobile){
@@ -28,6 +31,7 @@ function Form() {
         event.preventDefault()
         Fetchdata.post('/',form).then((res)=>{
            console.log(res);
+           navigate('/login')
            
         }).catch((err)=>{
            console.log(err);
